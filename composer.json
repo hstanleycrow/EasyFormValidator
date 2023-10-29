@@ -1,0 +1,33 @@
+{
+    "name": "hstanleycrow/easyformvalidator",
+    "description": "Free PHP library to validate forms with PHP",
+    "keywords": [
+        "php",
+        "website",
+        "forms",
+        "validations"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/hstanleycrow/EasyFormValidator",
+    "authors": [
+        {
+            "name": "Harold Rivas AKA Harold Crow",
+            "email": "holamundo@microaplicaciones.com",
+            "homepage": "https://www.microaplicaciones.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "hstanleycrow\\FormValidator\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
