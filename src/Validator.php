@@ -17,6 +17,7 @@ class Validator
         'url' => Rules\UrlRule::class,
         'phone' => Rules\PhoneNumberRule::class,
         'confirmed' => Rules\ConfirmedRule::class,
+        'decimal' => Rules\DecimalPlacesRule::class,
     ];
     public static function validate(array $data = [], array $rules = [], ?array $messages = [])
     {
